@@ -15,3 +15,13 @@ function divisibleBy(numbers, divisor){
     return divisible
   
   }
+
+
+
+
+
+  //another solution 
+
+//   function divisibleBy(numbers, divisor) {
+//     return numbers.filter(n => n % divisor === 0)
+//   }
