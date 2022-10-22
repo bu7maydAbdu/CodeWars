@@ -15,9 +15,9 @@ const ArrowFunc = function(arr) {
 
   // another solution:
 
-  const ArrowFunc = (arr) => String.fromCharCode(...arr);
+ arr => String.fromCharCode(...arr);
 
 
   // another solution 2:
 
-  const ArrowFunc = arr => String.fromCharCode.apply(String, arr);
+ arr => String.fromCharCode.apply(String, arr);
