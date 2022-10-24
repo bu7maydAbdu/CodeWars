@@ -13,10 +13,10 @@
 //solution:
 
 Array.prototype.filter = function(fn){
-    let res = [];
+    let res = []; // response array
     for (let i = 0; i<this.length; i++){
-      if (fn(this[i])){
-        res.push(this[i]);
+      if (fn(this[i])){ // if the function condition is true 
+        res.push(this[i]); // push the 
       }
     }
     return res;
