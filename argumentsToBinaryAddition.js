@@ -12,11 +12,15 @@
 
 
 
-
+// first sum the elements with reduce method 
+// make a ternary conditional to check if the element is a number 
+// sum the the current value with the overall sum if its a number and return the sum if its not a number 
+// convert it to binary by using .toString(2) // the 2 argument is fundmental to the conversion
 
 
 //solution:
 
 function arr2bin(arr) {
-    return arr.reduce((sum, cur) => typeof(cur) === 'number' ? sum + cur : sum, 0).toString(2); // to string with 2 as an argument turns to binary
+    return arr.reduce((sum, cur) => typeof(cur) === 'number' ? sum + cur : sum, 0).toString(2);  
+    // to string with 2 as an argument turns to binary
   }
