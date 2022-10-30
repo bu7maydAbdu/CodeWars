@@ -32,3 +32,20 @@ const number=(array) => {
       return (index + 1) + ": " + line;
     });
   }
+
+
+
+  // another solution2:
+
+
+  const number = function(arr) {
+    const newArr = [];
+      if (arr.length === 0) {
+        return [];
+      } else {
+        for (var i = 0, len = arr.length; i < len; i += 1) {
+          newArr.push((i + 1) + ': ' + arr[i]);
+        }
+      }
+      return newArr;
+    }
