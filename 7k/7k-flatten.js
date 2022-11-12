@@ -13,7 +13,24 @@
 //solution:
 
 
-function flatten (array){
-    return array.forEach(e => ...e))
-   }
-   
+const flatten = (array) => [].concat(...array);
+
+
+
+
+// another solution:
+
+
+   function flatten(lol){
+    return [].concat.apply([],lol);
+  }
+
+
+
+  // another solution:
+
+  const flatten = function (array){
+    return array.reduce(function(a,z) {
+      return a.concat(z);
+    }, []);
+  }
