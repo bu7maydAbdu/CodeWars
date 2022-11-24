@@ -17,10 +17,11 @@ function divCon(x){
 
 
 
-  // my alleged solution  (doesn't work on codewars)
+  // my alleged solution  (doesn't work on CodeWars)
+
 
 function divCon(x){
     const non = x.filter(e => (typeof e) === "number").reduce((a,b)=> a + b)
     const str = x.filter(e => (typeof e) === "string").map(e => Number(e)).reduce((a,b)=> a + b)
-    return (non - str)
+    return (non - str) 
   }
