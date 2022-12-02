@@ -47,7 +47,7 @@ function newAvg(arr, newavg) {
 
 
 
-// alleged  solution:
+// alleged  solution (must be revised):
 
 
 function newAvg(arr, newavg) {
