@@ -13,3 +13,10 @@ function spacify(str) {
     // return 
     return str.split("").join(" ")
   }
+
+
+
+  // another solution:
+
+
+  const spacify = str => [...str].join(' ');
