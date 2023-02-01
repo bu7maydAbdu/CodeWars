@@ -12,14 +12,12 @@
 
 //recursive solution:
 
-function mygcd(x,y){
-    //your code here
-    if (!y) {
-      return x;
-    }
-  
-    return mygcd(y, x % y);
+function mygcd(a,b){
+  if(b === 0){
+    return a
   }
+  return mygcd(b, a % b)
+}
 
   
   // iterative // loop:
