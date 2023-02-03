@@ -10,7 +10,7 @@
 
 
 
-//recursive solution:
+//recursive solution:       // !important to understand
 
 function mygcd(a,b){
   if(b === 0){
