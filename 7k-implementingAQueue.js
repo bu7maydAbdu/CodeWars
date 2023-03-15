@@ -41,7 +41,7 @@ var Queue = function() {
   };
 
 
-  //class solution :
+  //class solution : 
   class Queue {
     constructor() {
       this.storage = {}
