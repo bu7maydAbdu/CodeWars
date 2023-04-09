@@ -5,6 +5,7 @@
 
 // The input string will only consist of lower case letters and/or spaces.
 
+//solution:
 function getCount(str) {
   let arr = str.split("");
   let count = 0;
@@ -21,4 +22,9 @@ function getCount(str) {
     }
   }
   return count;
+}
+
+//anpther solution  :
+function getCount(str) {
+  return (str.match(/[aeiou]/gi) || []).length;
 }
