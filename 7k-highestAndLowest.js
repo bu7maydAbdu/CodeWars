@@ -17,3 +17,11 @@ function highAndLow(numbers) {
   numbers = numbers.split(" ");
   return `${Math.max(...numbers)} ${Math.min(...numbers)}`;
 }
+
+// another solution  // solution should be revised:
+
+function highAndLow(numbers) {
+  // ...
+  const arr = numbers.split(" ").sort((a, b) => a - b);
+  return `${arr[arr.length - 1]} ${arr[0]} `;
+}
